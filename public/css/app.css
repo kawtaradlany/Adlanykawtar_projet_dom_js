@@ -12033,5 +12033,9 @@ main .section6 .left-section {
   border-left: 3px red solid;
   height: 30vh !important;
 }
+main .section8 {
+  background-color: #eeeeee;
+  height: 85vh;
+}
 
 /*# sourceMappingURL=app.css.map */
