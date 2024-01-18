@@ -11890,6 +11890,35 @@ main .section2 .test .test2 {
   background-color: rgba(255, 255, 255, 0.8);
   margin-bottom: 30px;
 }
+main .section2 .test3 .img2section2 {
+  position: relative;
+}
+main .section2 .test3 .img2section2 .button {
+  display: flex;
+  justify-content: center;
+  color: #fff;
+  width: 80px;
+  height: 80px;
+  border-radius: 100%;
+  background: linear-gradient(30deg, red 20%, rgb(255, 38, 0) 80%);
+  transition: all 0.3s ease-in-out 0s;
+  box-shadow: red 0px 0px 0px 0px;
+  animation: 1.2s cubic-bezier(0.8, 0, 0, 1) 0s infinite normal none running pulse;
+  align-items: center;
+  border: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+main .section2 .test3 .img2section2 .button:is(:hover, :focus) svg {
+  transform: scale(1.5);
+}
+@keyframes pulse {
+  100% {
+    box-shadow: 0 0 0 45px rgba(193, 244, 246, 0);
+  }
+}
 main .section3 {
   background-color: #eeeeee;
   height: 100vh;
@@ -11912,6 +11941,9 @@ main .section3 .div2sect3 {
   height: 40vh;
   text-align: center;
 }
+main .section3 .div2sect3:hover {
+  transform: scale(1.2);
+}
 main .section3 .idiv {
   display: flex;
   justify-content: center;
@@ -11929,6 +11961,9 @@ main .section3 .div3sect3 {
   height: 40vh;
   text-align: center;
 }
+main .section3 .div3sect3:hover {
+  transform: scale(1.2);
+}
 main .section3 .idiv {
   display: flex;
   justify-content: center;
@@ -11945,6 +11980,9 @@ main .section3 .div4sect3 {
   width: 20vw !important;
   height: 40vh;
   text-align: center;
+}
+main .section3 .div4sect3:hover {
+  transform: scale(1.2);
 }
 main .section3 .idiv {
   display: flex;
@@ -11969,6 +12007,31 @@ main .bgimgsection4 {
   width: 100%;
   height: 100%;
   opacity: 50%;
+}
+main .section6 {
+  background-color: rgba(238, 238, 238, 0.368627451);
+  height: 60vh;
+  width: 100%;
+  align-items: center;
+}
+main .section6 i {
+  color: orange;
+}
+main .section6 img {
+  width: 15vw !important;
+  height: 30vh !important;
+  border: 3px white solid;
+  border-radius: 50%;
+}
+main .section6 .carousel-content {
+  margin-left: 10vw;
+  height: 60vh;
+  display: flex;
+  align-items: start;
+}
+main .section6 .left-section {
+  border-left: 3px red solid;
+  height: 30vh !important;
 }
 
 /*# sourceMappingURL=app.css.map */

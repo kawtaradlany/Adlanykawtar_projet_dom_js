@@ -31,6 +31,35 @@ main
                 display: flex
                 background-color: rgba(255, 255, 255, 0.8)
                 margin-bottom: 30px
+        .test3
+            .img2section2
+                position: relative
+                .button
+                    display: flex
+                    justify-content: center
+                    color: #fff
+                    width: 80px
+                    height: 80px
+                    border-radius: 100%
+                    background: linear-gradient(30deg, red 20%, rgb(255, 38, 0) 80%)
+                    transition: all 0.3s ease-in-out 0s
+                    box-shadow: red 0px 0px 0px 0px
+                    animation: 1.2s cubic-bezier(0.8, 0, 0, 1) 0s infinite normal none running pulse
+                    align-items: center
+                    border: 0
+                    position: absolute
+                    top:50%
+                    left: 50%
+                    transform: translate(-50% , -50%)
+                    
+
+                    &:is(:hover, :focus) svg 
+                        transform: scale(1.5)
+
+                    @keyframes pulse
+                        100%
+                            box-shadow: 0 0 0 45px rgba(193,244,246,0)
+
     .section3
         background-color: #eeeeee
         height: 100vh
@@ -38,19 +67,20 @@ main
         align-items: center
         justify-content: space-around
         .div1sect3
-            background-color: #ce1212         
+            background-color: #ce1212
             width: 25vw !important
             height: 50vh
             padding: 30px
             button
                 margin-left: 30%
                 background-color: #dd5a5a
-                
-            
+
         .div2sect3
             width: 20vw !important
             height: 40vh
             text-align: center
+            &:hover
+                transform: scale(1.2)
         .idiv
             display: flex
             justify-content: center
@@ -66,6 +96,8 @@ main
             width: 20vw !important
             height: 40vh
             text-align: center
+            &:hover
+                transform: scale(1.2)
 
         .idiv
             display: flex
@@ -82,6 +114,8 @@ main
             width: 20vw !important
             height: 40vh
             text-align: center
+            &:hover
+                transform: scale(1.2)
         .idiv
             display: flex
             justify-content: center
@@ -104,4 +138,23 @@ main
         height: 100%
         opacity: 50%
 
-                
+    .section6
+        background-color: #eeeeee5e
+        height: 60vh
+        width: 100%
+        align-items: center
+        i
+            color: orange
+        img
+            width: 15vw !important
+            height: 30vh !important
+            border: 3px white solid
+            border-radius: 50%
+        .carousel-content
+            margin-left: 10vw
+            height: 60vh
+            display: flex
+            align-items: start
+        .left-section
+            border-left: 3px red solid
+            height: 30vh !important
