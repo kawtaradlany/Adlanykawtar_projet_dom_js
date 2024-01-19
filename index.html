@@ -66,19 +66,21 @@
                     <div class="modal-dialog">
                         <div class="modal-content">
                             <div class="modal-header">
-                                <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Login</button>
-                                <button type="button" class="btn btn-black">Signup</button> 
-
-                                <button type="button" class="btn-close" data-bs-dismiss="modal"
-                                    aria-label="Close"></button>
+                                <!-- *lesbutton -->
+                                <button class="" id="login">Login</button>
+                                <button class="" id="signup">SignUp</button>
                             </div>
-                            <div class="modal-body signup d-flex d-lg-flex flex-column flex-lg-column align-items-center gap-3 ">
+                                <!-- *buttonlogin -->
+
+                            <div class="modal-body signup d-flex d-lg-flex flex-column flex-lg-column align-items-center gap-3 " id="logincontent">
                                 <h2>login</h2>
                                 <input class="rounded border-1" type="" placeholder="email">
                                 <input class="rounded border-1" type="text" placeholder="password">
                                 
                             </div>
-                            <div class="modal-body signup d-flex d-lg-flex flex-column flex-lg-column align-items-center gap-3">
+                            <!-- *buttonSignup -->
+                            
+                            <div class="modal-body signup d-flex d-lg-flex flex-column flex-lg-column align-items-center gap-3 d-none" id="signupcontent">
                                 <h2>SignUp</h2>
                                 <input class="rounded border-1" type="text" placeholder="Nom">
                                 <input class="rounded border-1" type="text" placeholder="Prenom">
