@@ -14,7 +14,7 @@
         <nav class="navbar d-lg-flex   px-lg-5 g-lg-5 w-100 navbar-expand-lg bg-body-tertiary">
             <div class="container-fluid  w-100 container  ">
                 <!-- <a class=" fw-bold " href="#">Lions Resto <span class="text-danger">.</span></a> -->
-                <h4>Lions Resto <span class="text-danger">.</span></h4>
+                <h4 >Lions Resto <span class="text-danger">.</span></h4>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                     aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -67,12 +67,12 @@
                         <div class="modal-content">
                             <div class="modal-header">
                                 <!-- *lesbutton -->
-                                <button class="" id="login">Login</button>
-                                <button class="" id="signup">SignUp</button>
+                                <button class=" rounded-5 border-0 text-light bg-danger" id="login">Login</button>
+                                <button class="rounded-5 border-0 text-light bg-danger" id="signup">SignUp</button>
                             </div>
                                 <!-- *buttonlogin -->
 
-                            <div class="modal-body signup d-flex d-lg-flex flex-column flex-lg-column align-items-center gap-3 " id="logincontent">
+                            <div class="modal-body signup d-flex  flex-column flex-lg-column align-items-center gap-3 d-none" id="logincontent">
                                 <h2>login</h2>
                                 <input class="rounded border-1" type="" placeholder="email">
                                 <input class="rounded border-1" type="text" placeholder="password">
@@ -80,7 +80,7 @@
                             </div>
                             <!-- *buttonSignup -->
                             
-                            <div class="modal-body signup d-flex d-lg-flex flex-column flex-lg-column align-items-center gap-3 d-none" id="signupcontent">
+                            <div class="modal-body signup d-flex  flex-column flex-lg-column align-items-center gap-3 " id="signupcontent">
                                 <h2>SignUp</h2>
                                 <input class="rounded border-1" type="text" placeholder="Nom">
                                 <input class="rounded border-1" type="text" placeholder="Prenom">
@@ -108,7 +108,11 @@
                 <p class="w-50  ">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati, eveniet.</p>
                 <div>
                     <button class="rounded-pill border-0 bg-danger">Book a table</button>
-                    <button class="rounded-pill border-0">watch video</button>
+                    <button class="buttonvideo rounded-pill border-0 "><i class="fa-solid fa-circle-play text-danger p-1"></i>watch video</button>
+                    <div class="position-relative h-100 w-100">
+                        <iframe class="video" width="928" height="522" src="https://www.youtube.com/embed/8JH_jNzDppo" title="Inside Lung King Heen: The First Chinese Restaurant To Receive Three Michelin Stars | TIME" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    </div>
+                    
                 </div>
             </div>
             <div class="m-5">
@@ -201,6 +205,268 @@
                     ut quaerat totam maxime consectetur quam cumque beatae!</p>
             </div>
         </section>
+        <!-- sectionMenu -->
+        <section>
+            <div class="d-flex flex-lg-column titre flex-column w-100 align-items-lg-center align-items-center justify-content-center p-lg-3">
+                <h3>Our Menu</h3>
+                <h1>CHECK OUR <span class="text-danger">YUMMY MENU</span></h1>
+            </div>
+            <div>
+                <div class="d-flex justify-content-center align-content-center ">
+                    <ul class="nav nav-tabs" id="myTab" role="tablist">
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link active" id="home-tab" data-bs-toggle="tab"
+                                data-bs-target="#home-tab-pane" type="button" role="tab" aria-controls="home-tab-pane"
+                                aria-selected="true">Starters</button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link" id="profile-tab" data-bs-toggle="tab"
+                                data-bs-target="#profile-tab-pane" type="button" role="tab"
+                                aria-controls="profile-tab-pane" aria-selected="false">Breakfast</button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link" id="contact-tab" data-bs-toggle="tab"
+                                data-bs-target="#contact-tab-pane" type="button" role="tab"
+                                aria-controls="contact-tab-pane" aria-selected="false">Lunch</button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link" id="contact-tab" data-bs-toggle="tab"
+                                data-bs-target="#contact-tab-pane" type="button" role="tab"
+                                aria-controls="contact-tab-pane" aria-selected="false">Dinner</button>
+                        </li>
+                    </ul>
+                </div>
+                <div class="tab-content" id="myTabContent">
+                    <div class="tab-pane fade show active" id="home-tab-pane" role="tabpanel" aria-labelledby="home-tab"
+                        tabindex="0">
+                        <div
+                            class="d-flex flex-lg-column titre flex-column w-100 align-items-lg-center align-items-center justify-content-center p-lg-3 container-lg">
+                            <h3>Menu</h3>
+                            <h1 class="text-danger"><span>BREAKFASt</span></h1>
+                        </div>
+                        <div class="d-flex w-100 justify-content-around  align-content-center p-2">
+                            <div>
+                                <img src="./public/image/img/menu/menu-item-1(1).png" width="250px" alt="" srcset="">
+                                <h5 class="text-center">magnam tist</h5>
+                                <p class="text-center">Lorem, ipsum dolor.</p>
+                                <p class="text-danger text-center"><b>$5.95</b></p>
+                            </div>
+
+                            <div>
+                                <img src="./public/image/img/menu/menu-item-2(1).png" width="250px" alt="" srcset="">
+                                <h5 class="text-center">magnam tist</h5>
+                                <p class="text-center">Lorem, ipsum dolor.</p>
+                                <p class="text-danger text-center"><b>$7.95</b></p>
+                            </div>
+
+                            <div>
+                                <img src="./public/image/img/menu/menu-item-3(1).png" width="250px" alt="" srcset="">
+                                <h5 class="text-center">magnam tist</h5>
+                                <p class="text-center">Lorem, ipsum dolor.</p>
+                                <p class="text-danger text-center"><b>$12.95</b></p>
+                            </div>
+                        </div>
+
+                        <div class="d-flex w-100 justify-content-around align-content-center p-3">
+                            <div>
+                                <img src="./public/image/img/menu/menu-item-4(1).png" width="250px" alt="" srcset="">
+                                <h5 class="text-center">magnam tist</h5>
+                                <p class="text-center">Lorem, ipsum dolor.</p>
+                                <p class="text-danger text-center"><b>$11.95</b></p>
+                            </div>
+
+                            <div>
+                                <img src="./public/image/img/menu/menu-item-5(1).png" width="250px" alt="" srcset="">
+                                <h5 class="text-center">magnam tist</h5>
+                                <p class="text-center">Lorem, ipsum dolor.</p>
+                                <p class="text-danger text-center"><b>$14.95</b></p>
+                            </div>
+
+                            <div>
+                                <img src="./public/image/img/menu/menu-item-6(1).png" width="250px" alt="" srcset="">
+                                <h5 class="text-center">magnam tist</h5>
+                                <p class="text-center">Lorem, ipsum dolor.</p>
+                                <p class="text-danger text-center"><b>$17.95</b></p>
+                            </div>
+                        </div>
+
+
+
+
+
+
+
+                    </div>
+                    <div class="tab-pane fade" id="profile-tab-pane" role="tabpanel" aria-labelledby="profile-tab"
+                        tabindex="0">
+                        <div
+                            class="d-flex flex-lg-column titre flex-column w-100 align-items-lg-center align-items-center justify-content-center p-lg-3 container-lg">
+                            <h3>Menu</h3>
+                            <h1 class="text-danger"><span>BREAKFASt</span></h1>
+                        </div>
+                        <div class="d-flex w-100 justify-content-around  align-content-center p-2">
+                            <div>
+                                <img src="./public/image/img/menu/menu-item-3(1).png" width="250px" alt="" srcset="">
+                                <h5 class="text-center">magnam tist</h5>
+                                <p class="text-center">Lorem, ipsum dolor.</p>
+                                <p class="text-danger text-center"><b>$12.95</b></p>
+                            </div>
+
+                            <div>
+                                <img src="./public/image/img/menu/menu-item-5(1).png" width="250px" alt="" srcset="">
+                                <h5 class="text-center">magnam tist</h5>
+                                <p class="text-center">Lorem, ipsum dolor.</p>
+                                <p class="text-danger text-center"><b>$14.95</b></p>
+                            </div>
+
+                            <div>
+                                <img src="./public/image/img/menu/menu-item-6(1).png" width="250px" alt="" srcset="">
+                                <h5 class="text-center">magnam tist</h5>
+                                <p class="text-center">Lorem, ipsum dolor.</p>
+                                <p class="text-danger text-center"><b>$17.95</b></p>
+                            </div>
+                        </div>
+
+                        <div class="d-flex w-100 justify-content-around align-content-center p-3">
+                            <div>
+                                <img src="./public/image/img/menu/menu-item-1(1).png" width="250px" alt="" srcset="">
+                                <h5 class="text-center">magnam tist</h5>
+                                <p class="text-center">Lorem, ipsum dolor.</p>
+                                <p class="text-danger text-center"><b>$5.95</b></p>
+                            </div>
+
+                            <div>
+                                <img src="./public/image/img/menu/menu-item-2(1).png" width="250px" alt="" srcset="">
+                                <h5 class="text-center">magnam tist</h5>
+                                <p class="text-center">Lorem, ipsum dolor.</p>
+                                <p class="text-danger text-center"><b>$7.95</b></p>
+                            </div>
+
+                            <div>
+                                <img src="./public/image/img/menu/menu-item-6(1).png" width="250px" alt="" srcset="">
+                                <h5 class="text-center">magnam tist</h5>
+                                <p class="text-center">Lorem, ipsum dolor.</p>
+                                <p class="text-danger text-center"><b>$17.95</b></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="contact-tab-pane" role="tabpanel" aria-labelledby="contact-tab"
+                        tabindex="0">
+                        <div
+                            class="d-flex flex-lg-column titre flex-column w-100 align-items-lg-center align-items-center justify-content-center p-lg-3 container-lg">
+                            <h3>Menu</h3>
+                            <h1 class="text-danger"><span>BREAKFASt</span></h1>
+                        </div>
+                        <div class="d-flex w-100 justify-content-around  align-content-center p-2">
+                            <div>
+                                <img src="./public/image/img/menu/menu-item-6(1).png" width="250px" alt="" srcset="">
+                                <h5 class="text-center">magnam tist</h5>
+                                <p class="text-center">Lorem, ipsum dolor.</p>
+                                <p class="text-danger text-center"><b>$17.95</b></p>
+                            </div>
+
+                            <div>
+                                <img src="./public/image/img/menu/menu-item-5(1).png" width="250px" alt="" srcset="">
+                                <h5 class="text-center">magnam tist</h5>
+                                <p class="text-center">Lorem, ipsum dolor.</p>
+                                <p class="text-danger text-center"><b>$14.95</b></p>
+                            </div>
+
+                            <div>
+                                <img src="./public/image/img/menu/menu-item-4(1).png" width="250px" alt="" srcset="">
+                                <h5 class="text-center">magnam tist</h5>
+                                <p class="text-center">Lorem, ipsum dolor.</p>
+                                <p class="text-danger text-center"><b>$11.95</b></p>
+                            </div>
+                        </div>
+
+                        <div class="d-flex w-100 justify-content-around align-content-center p-3">
+                            <div>
+                                <img src="./public/image/img/menu/menu-item-3(1).png" width="250px" alt="" srcset="">
+                                <h5 class="text-center">magnam tist</h5>
+                                <p class="text-center">Lorem, ipsum dolor.</p>
+                                <p class="text-danger text-center"><b>$12.95</b></p>
+                            </div>
+
+                            <div>
+                                <img src="./public/image/img/menu/menu-item-1(1).png" width="250px" alt="" srcset="">
+                                <h5 class="text-center">magnam tist</h5>
+                                <p class="text-center">Lorem, ipsum dolor.</p>
+                                <p class="text-danger text-center"><b>$5.95</b></p>
+                            </div>
+
+                            <div>
+                                <img src="./public/image/img/menu/menu-item-2(1).png" width="250px" alt="" srcset="">
+                                <h5 class="text-center">magnam tist</h5>
+                                <p class="text-center">Lorem, ipsum dolor.</p>
+                                <p class="text-danger text-center"><b>$7.95</b></p>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="tab-pane fade" id="disabled-tab-pane" role="tabpanel" aria-labelledby="disabled-tab"
+                        tabindex="0">
+                        <div
+                            class="d-flex flex-lg-column titre flex-column w-100 align-items-lg-center align-items-center justify-content-center p-lg-3 container-lg">
+                            <h3>Menu</h3>
+                            <h1 class="text-danger"><span>BREAKFASt</span></h1>
+                        </div>
+                        <div class="d-flex w-100 justify-content-around  align-content-center p-2">
+                            <div>
+                                <img src="./public/image/img/menu/menu-item-4(1).png" width="250px" alt="" srcset="">
+                                <h5 class="text-center">magnam tist</h5>
+                                <p class="text-center">Lorem, ipsum dolor.</p>
+                                <p class="text-danger text-center"><b>$17.95</b></p>
+                            </div>
+
+                            <div>
+                                <img src="./public/image/img/menu/menu-item-2(1).png" width="250px" alt="" srcset="">
+                                <h5 class="text-center">magnam tist</h5>
+                                <p class="text-center">Lorem, ipsum dolor.</p>
+                                <p class="text-danger text-center"><b>$14.95</b></p>
+                            </div>
+
+                            <div>
+                                <img src="./public/image/img/menu/menu-item-6(1).png" width="250px" alt="" srcset="">
+                                <h5 class="text-center">magnam tist</h5>
+                                <p class="text-center">Lorem, ipsum dolor.</p>
+                                <p class="text-danger text-center"><b>$11.95</b></p>
+                            </div>
+                        </div>
+
+                        <div class="d-flex w-100 justify-content-around align-content-center p-3">
+                            <div>
+                                <img src="./public/image/img/menu/menu-item-1(1).png" width="250px" alt="" srcset="">
+                                <h5 class="text-center">magnam tist</h5>
+                                <p class="text-center">Lorem, ipsum dolor.</p>
+                                <p class="text-danger text-center"><b>$12.95</b></p>
+                            </div>
+
+                            <div>
+                                <img src="./public/image/img/menu/menu-item-3(1).png" width="250px" alt="" srcset="">
+                                <h5 class="text-center">magnam tist</h5>
+                                <p class="text-center">Lorem, ipsum dolor.</p>
+                                <p class="text-danger text-center"><b>$5.95</b></p>
+                            </div>
+
+                            <div>
+                                <img src="./public/image/img/menu/menu-item-6(1).png" width="250px" alt="" srcset="">
+                                <h5 class="text-center">magnam tist</h5>
+                                <p class="text-center">Lorem, ipsum dolor.</p>
+                                <p class="text-danger text-center"><b>$7.95</b></p>
+                            </div>
+                        </div>
+
+                    </div>
+
+
+
+                </div>
+
+
+            </div>
+            </div>
+        </section>
         <!-- section4 -->
         <section class="section4">
             <div class="bgimgsection4 d-flex justify-content-around align-items-center">
@@ -225,7 +491,7 @@
 
         <!-- section5 -->
 
-        <section class="section5">
+        <section class="section5">  
         </section>
 
         <!-- section6 -->
@@ -316,6 +582,11 @@
         </section>
         <!-- section7 -->
         <section class="section7">
+            <div class="d-flex flex-lg-column titre flex-column w-100 align-items-lg-center align-items-center justify-content-center p-lg-3">
+                <h3>EVENTS</h3>
+                <h1>SHARE <span class="text-danger">YUMMY MENU </span> IN OUR RESTAURANT</h1>
+            </div>
+            <div>
 
         </section>
         <!-- section8 -->
@@ -383,6 +654,7 @@
         </section>
         <!-- section10 -->
         <section class="10">
+
         </section>
         <!-- section11 -->
         <section class="section10 ">
@@ -390,6 +662,7 @@
                 <p> Gallery</p>
                 <H2>CHECK <SPan class="text-danger">OUR GALLERY </SPan></H2>
             </div>
+            
         </section>
         <!-- section12-->
         <section class="section12 ">

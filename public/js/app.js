@@ -17,3 +17,8 @@ mySignup.addEventListener('click', () => {
     myLoginContent.classList.add("d-none")
     console.log(mySignupContent);
 })
+let mybuttonvideo=document.querySelector(".buttonvideo")
+let myvideo=document.querySelector(".video")
+mybuttonvideo.addEventListener('click', () => {
+    myvideo.style.display="block"
+})

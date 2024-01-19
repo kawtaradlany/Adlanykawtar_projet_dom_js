@@ -8,6 +8,12 @@ main
             flex-direction: column
             justify-content: center
             align-content: center
+            // font-family: fontA
+            .video
+                display: none
+                position: absolute
+                top: -38vh
+                left: 20vw
     .firstdivsection2
         // height: 100vh
         // display: flex
@@ -48,12 +54,11 @@ main
                     align-items: center
                     border: 0
                     position: absolute
-                    top:50%
+                    top: 50%
                     left: 50%
                     transform: translate(-50% , -50%)
-                    
 
-                    &:is(:hover, :focus) svg 
+                    &:is(:hover, :focus) svg
                         transform: scale(1.5)
 
                     @keyframes pulse
@@ -160,9 +165,12 @@ main
             height: 30vh !important
     .section8
         background-color: #eeeeee
-        height:85vh
+        height: 85vh
+        .card
+            &:hover
+                transform: scale(1.2)
     .section9
-        height:100vh
+        height: 100vh
     .div2section9
         background-color: #eeeeee
         width: 90%
@@ -181,10 +189,18 @@ main
             border-radius: 20vh
             border: none
     .section10
-        background-color: red
+        // background-color: red
         width: 100%
         height: 100%
+
 .footer
     background-color: black
     height: 50vh
     width: 100%
+.section7
+    background-color: pink
+    width: 100%
+    height: 100%
+    font-family: fontA
+  
+    
